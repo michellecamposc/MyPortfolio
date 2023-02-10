@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Data lovers",
+      "description": "Website design & build",
+      "image": "/public/cafenegro.png"
+    },
+    {
+      "id": 2,
+      "name": "Go wild nature",
+      "description": "Mobile app design & build",
+      "image":"/public/cafeconleche.png"
+    
+    },
+    {
+      "id": 3,
+      "name": "Oranga",
+      "description": "Mobile app design",
+      "image": "/public/sandwichJ&Q.png"
+    },
+    {
+      "id": 4,
+      "name": "Deja Burg",
+      "description": "Point of sale design & build",
+      "image": "/public/jugofrutas.png"
+    },
+    {
+      "id": 5,
+      "name": "Lezza",
+      "description": "Landing page design",
+      "image": "/public/dobleburguer.png"
+    },
+    {
+      "id": 6,
+      "name": "Pet Sitter",
+      "description": "Mobile app design",
+      "image": "/public/simpleburguer.png"
+    } 
+  ]
+}

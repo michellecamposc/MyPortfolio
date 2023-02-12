@@ -15,11 +15,13 @@ export const Home = () => {
 					<section id={styles.buttonContainer}>
 						<ProjectButton />
 					</section>
-					<section>
-						<Project />
-					</section>
 				</div>
 			</section>
+			<Project />
+			<Project />
+			<Project />
+			<Project />
+			<Project />
 		</div>
 	);
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
-import { BsArrowRight } from 'react-icons/bs';
+import { ImArrowRight2 } from 'react-icons/im';
 
 export const Project = () => {
 	return (
@@ -8,9 +8,11 @@ export const Project = () => {
 			<div className={styles.projectContainer}>
 				<section className={styles.projectDescription}>
 					<h3>Data Lover</h3>
-					<h1>Website design & build</h1>
+					<h1>
+						Website design & <br /> build
+					</h1>
 					<button className={styles.seeProjectButton}>
-						See this project <BsArrowRight />
+						See this project <ImArrowRight2 />
 					</button>
 				</section>
 				<figure className={styles.projectPhoto}>

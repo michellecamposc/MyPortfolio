@@ -4,6 +4,7 @@ import { Project } from '../components/Project';
 import { ProjectButton } from '../components/ProjectButton';
 import styles from '../styles/Home.module.css';
 import data from '../data/projects.json';
+import { WhatIDo } from '../components/WhatIDo';
 
 const dataProjects = data.projects;
 export const Home = () => {
@@ -28,6 +29,7 @@ export const Home = () => {
 					image={image}
 				/>
 			))}
+			<WhatIDo />
 		</div>
 	);
 };

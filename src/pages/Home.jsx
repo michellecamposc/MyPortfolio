@@ -3,7 +3,9 @@ import { Navbar } from '../components/NavBar';
 import { Project } from '../components/Project';
 import { ProjectButton } from '../components/ProjectButton';
 import styles from '../styles/Home.module.css';
+import data from '../data/projects.json';
 
+const dataProjects = data.projects;
 export const Home = () => {
 	return (
 		<div id={styles.homeContainer}>
@@ -17,11 +19,15 @@ export const Home = () => {
 					</section>
 				</div>
 			</section>
-			<Project />
-			<Project />
-			<Project />
-			<Project />
-			<Project />
+			{dataProjects.map(({ name, description, image, id }) => (
+				<Project
+					key={id}
+					project={dataProjects}
+					name={name}
+					description={description}
+					image={image}
+				/>
+			))}
 		</div>
 	);
 };

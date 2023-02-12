@@ -58,7 +58,7 @@
 .principalContainer {
 	height: 100vh;
 	width: 100%;
-	background-image: url(../images/backgroundHome.png);
+	background-image: url(/public/images/backgroundHome.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -116,13 +116,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 120px;
+	margin-top: 15em;
 }
 
 .projectDescription {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 30%;
+	margin-right: 15%;
 }
 
 .projectDescription h1 {
@@ -164,4 +165,6 @@
 .projectPhoto {
 	display: flex;
 	width: 30%;
+	align-items: center;
+	justify-content: center;
 }

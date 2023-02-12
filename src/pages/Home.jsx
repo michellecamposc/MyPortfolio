@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar } from '../components/NavBar';
+import { Project } from '../components/Project';
 import { ProjectButton } from '../components/ProjectButton';
 import styles from '../styles/Home.module.css';
 
@@ -13,6 +14,9 @@ export const Home = () => {
 					<h2>Frontend Developer and UX/UI Designer</h2>
 					<section id={styles.buttonContainer}>
 						<ProjectButton />
+					</section>
+					<section>
+						<Project />
 					</section>
 				</div>
 			</section>

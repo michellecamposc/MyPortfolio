@@ -4,9 +4,7 @@ import styles from '../styles/Home.module.css';
 export const ProjectButton = () => {
 	return (
 		<>
-			<div className={styles.projectButton}>
-				<h3>See my work bellow</h3>
-			</div>
+			<button className={styles.projectButton}>See my work below</button>
 		</>
 	);
 };

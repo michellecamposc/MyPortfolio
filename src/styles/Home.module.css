@@ -178,7 +178,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin-top: 12em;
+	margin: 12em 0em 12em 0em;
 }
 
 .whatIDoContainer h1 {
@@ -211,6 +211,7 @@
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+	text-align: center;
 }
 
 .informationContainer h2 {
@@ -226,4 +227,67 @@
 	font-weight: 500;
 	margin: 20px;
 	color: rgba(43, 49, 62, 1);
+}
+
+/* Footer section */
+
+.contactContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.seperateLine {
+	border: 0.8px solid rgba(158, 163, 176, 0.2);
+	align-items: center;
+	display: flex;
+	width: 50%;
+	margin-bottom: 90px;
+}
+
+.sayHiText h1 {
+	font-size: 61px;
+	font-weight: 800;
+	line-height: 83px;
+	color: rgba(22, 72, 168, 0.79);
+}
+
+.sayHiText span:first-child {
+	color: rgba(158, 163, 176, 0.58);
+}
+
+.informationAbout {
+	color: rgba(158, 163, 176, 1);
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 36px;
+	width: 60%;
+	margin: 40px 0px 40px;
+	text-align: center;
+}
+
+.sendEmailButton {
+	margin: 30px 0px 100px 0px;
+	width: 14.125em;
+	height: 3.049em;
+	border: 2px solid rgba(22, 72, 168, 0.79);
+	border-radius: 32px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-weight: 700;
+	font-size: 17px;
+	background-color: transparent;
+	color: rgba(22, 72, 168, 0.79);
+	line-height: 23px;
+	cursor: pointer;
+}
+
+.footerSection {
+	color: rgba(158, 163, 176, 1);
+	font-size: 14px;
+	font-weight: lighter;
+	margin-bottom: 50px;
 }

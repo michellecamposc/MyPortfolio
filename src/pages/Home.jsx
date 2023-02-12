@@ -5,6 +5,7 @@ import { ProjectButton } from '../components/ProjectButton';
 import styles from '../styles/Home.module.css';
 import data from '../data/projects.json';
 import { WhatIDo } from '../components/WhatIDo';
+import { FooterSection } from '../components/FooterSection';
 
 const dataProjects = data.projects;
 export const Home = () => {
@@ -30,6 +31,7 @@ export const Home = () => {
 				/>
 			))}
 			<WhatIDo />
+			<FooterSection />
 		</div>
 	);
 };

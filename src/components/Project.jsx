@@ -12,7 +12,7 @@ export const Project = ({ name, description, image, id }) => {
 					<h1>{description}</h1>
 					<Link to={`/project/${name}`} style={{ textDecoration: 'none' }}>
 						<button className={styles.seeProjectButton}>
-							See this project <ImArrowRight2 />
+							See this project <ImArrowRight2 style={{ marginLeft: '10px' }} />
 						</button>
 					</Link>
 				</section>

@@ -2,21 +2,21 @@
   "projectsDetails": [
     {
       "id": 1,
-      "Title": "Data lovers",
+      "Title": "Data lover",
       "description": "Data lover is a responsive web application created to display data about the world of Harry Potter. It allows the user to view, filter, and order data regarding the saga in a friendly way.",
       "images": ["/public/images/individualsProjects/harryPage.jpg", "/public/images/individualsProjects/harryBooks.jpg"],
       "url": "https://calm-parfait-976f45.netlify.app/"
     },
     {
       "id": 2,
-      "Title": "Go wild nature",
+      "Title": "Go Wild Nature",
       "description": "Go wild Nature is a social network (Single Page Application) for lovers of sports and outdoor activities. It allows you to create an account, log in and post on the wall in real time.",
       "images": ["/public/images/individualsProjects/goWildMobile.jpg", "/public/images/individualsProjects/createAccountGoWild.jpg","/public/images/individualsProjects/loginGoWild.jpg"],
       "url": "https://gowildnature-f8558.web.app/#/login"
     },
     {
       "id": 3,
-      "Title": "Oranga",
+      "Title": "Oranga App",
       "description": "Oranga app is a mobile application created to order organic and seasonal vegetables locally, with the option of delivery to your home.",
       "images": "/public/images/individualsProjects/orangaApp.jpg"
     },

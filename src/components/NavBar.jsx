@@ -19,8 +19,8 @@ export const Navbar = () => {
 					<a href='https://dribbble.com/michellecamposc_'>
 						<BsDribbble
 							style={{
-								width: '1.8rem',
-								height: '1.8em',
+								width: '1.6rem',
+								height: '1.6em',
 								color: '#2B313E',
 							}}
 						/>
@@ -30,8 +30,8 @@ export const Navbar = () => {
 					<a href='https://www.linkedin.com/in/stephaniecamposc/'>
 						<BsLinkedin
 							style={{
-								width: '1.8rem',
-								height: '1.8em',
+								width: '1.6rem',
+								height: '1.6em',
 								color: '#2B313E',
 							}}
 						/>
@@ -41,8 +41,8 @@ export const Navbar = () => {
 					<a href='https://github.com/michellecamposc'>
 						<BsGithub
 							style={{
-								width: '1.8rem',
-								height: '1.8em',
+								width: '1.6rem',
+								height: '1.6em',
 								color: '#2B313E',
 							}}
 						/>

@@ -33,6 +33,7 @@ export const Home = () => {
 						name={name}
 						description={description}
 						image={image}
+						id={id}
 					/>
 				))}
 			</section>

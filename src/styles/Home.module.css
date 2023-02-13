@@ -12,10 +12,10 @@
 	width: 100%;
 	margin-top: 10px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	color: rgb(0, 0, 0);
 	padding: 40px 187px;
+	justify-content: space-evenly;
 }
 
 .navbarContainer h1 {
@@ -34,14 +34,11 @@
 	display: flex;
 }
 
-.navbarContainer li {
-	margin: 10px 25px;
-}
-
 .navbarContainer a {
 	color: #2b313e;
 	text-decoration: none;
 	font-size: 16px;
+	padding: 20px;
 }
 
 /*Social medias*/
@@ -116,7 +113,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 15em;
+	margin-top: 12rem;
 }
 
 .projectDescription {

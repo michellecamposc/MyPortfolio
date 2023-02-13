@@ -1,0 +1,30 @@
+.projectsDetailsContainer {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: var(--font-family);
+}
+
+.individualProjectContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 74px 200px 176px 200px;
+}
+
+.individualProjectContainer h1 {
+	margin-bottom: 1.625rem;
+	color: rgba(20, 55, 123, 0.79);
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.individualProjectContainer p {
+	text-align: center;
+	font-size: 18px;
+	line-height: 36px;
+	color: #2b313e;
+	width: 70%;
+}

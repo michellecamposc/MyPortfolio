@@ -7,12 +7,8 @@ export const Navbar = () => {
 	return (
 		<nav className={styles.navbarContainer}>
 			<ul>
-				<li>
-					<Link to='/'>Portfolio</Link>
-				</li>
-				<li>
-					<Link to='/About'>About/Contact</Link>
-				</li>
+				<Link to='/'>Portfolio</Link>
+				<Link to='/About'>About/Contact</Link>
 			</ul>
 			<h1>
 				<span>Stephanie</span>
@@ -21,17 +17,35 @@ export const Navbar = () => {
 			<div className={styles.iconsContainer}>
 				<li>
 					<a href='https://dribbble.com/michellecamposc_'>
-						<BsDribbble />
+						<BsDribbble
+							style={{
+								width: '1.8rem',
+								height: '1.8em',
+								color: '#2B313E',
+							}}
+						/>
 					</a>
 				</li>
 				<li>
 					<a href='https://www.linkedin.com/in/stephaniecamposc/'>
-						<BsLinkedin />
+						<BsLinkedin
+							style={{
+								width: '1.8rem',
+								height: '1.8em',
+								color: '#2B313E',
+							}}
+						/>
 					</a>
 				</li>
 				<li>
 					<a href='https://github.com/michellecamposc'>
-						<BsGithub />
+						<BsGithub
+							style={{
+								width: '1.8rem',
+								height: '1.8em',
+								color: '#2B313E',
+							}}
+						/>
 					</a>
 				</li>
 			</div>

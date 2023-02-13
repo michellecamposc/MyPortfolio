@@ -1,0 +1,42 @@
+{
+  "projectsDetails": [
+    {
+      "id": 1,
+      "Title": "Data lovers",
+      "description": "Data lover is a responsive web application created to display data about the world of Harry Potter. It allows the user to view, filter, and order data regarding the saga in a friendly way.",
+      "images": ["/public/images/individualsProjects/harryPage.jpg", "/public/images/individualsProjects/harryBooks.jpg"],
+      "url": "https://calm-parfait-976f45.netlify.app/"
+    },
+    {
+      "id": 2,
+      "Title": "Go wild nature",
+      "description": "Go wild Nature is a social network (Single Page Application) for lovers of sports and outdoor activities. It allows you to create an account, log in and post on the wall in real time.",
+      "images": ["/public/images/individualsProjects/goWildMobile.jpg", "/public/images/individualsProjects/createAccountGoWild.jpg","/public/images/individualsProjects/loginGoWild.jpg"],
+      "url": "https://gowildnature-f8558.web.app/#/login"
+    },
+    {
+      "id": 3,
+      "Title": "Oranga",
+      "description": "Oranga app is a mobile application created to order organic and seasonal vegetables locally, with the option of delivery to your home.",
+      "images": "/public/images/individualsProjects/orangaApp.jpg"
+    },
+    {
+      "id": 4,
+      "Title": "Deja Burg",
+      "description": "Application for a fast food restaurant. The goal is to create an interface for waiters and kitchen staff.",
+      "images": ["/public/images/individualsProjects/homePOS.jpg", "/public/images/individualsProjects/menuPOS.jpg", "/public/images/individualsProjects/toDrinkPOS.jpg", "/public/images/individualsProjects/comandasPOS.jpg"]
+    },
+    {
+      "id": 5,
+      "Title": "Lezza",
+      "description": "Leeza is an online store created for the sale of sustainable metal and glass bottles. In this project I had the objective of defining the brand and the general design.",
+      "images": "/public/images/individualsProjects/leezaApp.jpg"
+    },
+    {
+      "id": 6,
+      "Title": "Pet Sitter",
+      "description": "Pet sitter is a mobile application created to get free stays in the world taking care of the hosts' pets while they travel.",
+      "images": ["/public/images/individualsProjects/petSitterMobile.jpg", "/public/images/individualsProjects/createAccountPetSitter.jpg","/public/images/individualsProjects/appPetSitter.jpg"]
+    } 
+  ]
+}

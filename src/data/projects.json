@@ -4,38 +4,38 @@
       "id": 1,
       "name": "Data lovers",
       "description": "Website design & build",
-      "image": "../images/harryHome.png"
+      "image": "/public/images/Home/HarryPotter.jpg"
     },
     {
       "id": 2,
       "name": "Go wild nature",
       "description": "Mobile app design & build",
-      "image":"../images/goWildHome.png"
+      "image":"/public/images/Home/GoWildNature.jpg"
     
     },
     {
       "id": 3,
       "name": "Oranga",
       "description": "Mobile app design",
-      "image": "../images/orangaHome.png"
+      "image": "/public/images/Home/Oranga.jpg"
     },
     {
       "id": 4,
       "name": "Deja Burg",
       "description": "Point of sale design & build",
-      "image": "../images/pointSaleHome.png"
+      "image": "/public/images/Home/POS.jpg"
     },
     {
       "id": 5,
       "name": "Lezza",
       "description": "Landing page design",
-      "image": "../images/LezzaHome.png"
+      "image": "/public/images/Home/Leeza.jpg"
     },
     {
       "id": 6,
       "name": "Pet Sitter",
       "description": "Mobile app design",
-      "image": "../images/petSitteHome.png"
+      "image": "/public/images/Home/PetSitter.jpg"
     } 
   ]
 }

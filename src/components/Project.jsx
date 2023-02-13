@@ -14,7 +14,7 @@ export const Project = ({ name, description, image }) => {
 					</button>
 				</section>
 				<figure className={styles.projectPhoto}>
-					<img src={image} />
+					<img className={styles.projectImages} src={image} />
 				</figure>
 			</div>
 		</>

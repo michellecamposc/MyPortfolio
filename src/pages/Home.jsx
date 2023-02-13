@@ -9,7 +9,7 @@ import { FooterSection } from '../components/FooterSection';
 import { useRef } from 'react';
 
 const dataProjects = data.projects;
-
+//Creates a reference to an element in the DOM.
 export const Home = () => {
 	const projectsSectionRef = useRef();
 

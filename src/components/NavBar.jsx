@@ -16,7 +16,7 @@ export const Navbar = () => {
 			</h1>
 			<div className={styles.iconsContainer}>
 				<li>
-					<a href='https://dribbble.com/michellecamposc_'>
+					<a href='https://dribbble.com/michellecamposc_' target='_blank'>
 						<BsDribbble
 							style={{
 								width: '1.6rem',
@@ -27,7 +27,7 @@ export const Navbar = () => {
 					</a>
 				</li>
 				<li>
-					<a href='https://www.linkedin.com/in/stephaniecamposc/'>
+					<a href='https://dribbble.com/michellecamposc_' target='_blank'>
 						<BsLinkedin
 							style={{
 								width: '1.6rem',
@@ -38,7 +38,7 @@ export const Navbar = () => {
 					</a>
 				</li>
 				<li>
-					<a href='https://github.com/michellecamposc'>
+					<a href='https://github.com/michellecamposc' target='_blank'>
 						<BsGithub
 							style={{
 								width: '1.6rem',

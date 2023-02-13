@@ -6,6 +6,7 @@ import dataProjectDetails from '../data/projectDetails.json';
 import { useParams } from 'react-router-dom';
 
 export const ProjectDetails = () => {
+	// Provides access to a component's path values via the id.
 	const { id } = useParams();
 	const project = dataProjectDetails.projectsDetails.find(
 		(project) => project.id === parseInt(id)
@@ -39,7 +40,10 @@ export const ProjectDetails = () => {
 			<div className={styles.linkContainer}>
 				{project.url ? (
 					<p>
-						Visit the website 👉🏼 <a href={project.url}>Here</a>
+						Visit the website 👉🏼{' '}
+						<a href={project.url} target='_blank'>
+							Here
+						</a>
 					</p>
 				) : null}
 			</div>

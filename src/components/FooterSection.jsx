@@ -5,7 +5,9 @@ import { useState } from 'react';
 
 export const FooterSection = () => {
 	const [isButtonActive, setIsButtonActive] = useState(false);
+	//The button has a temporary visual effect after being clicked and returns to its original state after two seconds.
 	const handleButtonClick = () => {
+		//Allows me to write my email on the clipboard
 		navigator.clipboard.writeText('stephcamposc@gmail.com');
 		setIsButtonActive(true);
 		setTimeout(() => {
@@ -25,9 +27,10 @@ export const FooterSection = () => {
 				</div>
 				<p className={styles.informationAbout}>
 					If you need a Frontend developer or UX/UI designer for your project,
-					send me an email and I will contact you.
+					send me an email and I will contact you👋🏻.
 				</p>
 				<button
+					type='button'
 					className={`${styles.sendEmailButton} ${
 						isButtonActive ? styles.buttonCopied : ''
 					}`}

@@ -11,7 +11,7 @@ export const Project = ({ name, description, image, id }) => {
 					<h3>{name}</h3>
 					<h1>{description}</h1>
 					<Link to={`/project/${id}`} style={{ textDecoration: 'none' }}>
-						<button className={styles.seeProjectButton}>
+						<button className={styles.seeProjectButton} type='button'>
 							See this project <ImArrowRight2 style={{ marginLeft: '10px' }} />
 						</button>
 					</Link>

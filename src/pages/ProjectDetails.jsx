@@ -31,11 +31,11 @@ export const ProjectDetails = () => {
 	return (
 		<div className={styles.projectsDetailsContainer}>
 			<Navbar />
-			<section className={styles.individualProjectContainer}>
+			<article className={styles.individualProjectContainer}>
 				<h1>{project.title}</h1>
 				<p>{project.description}</p>
 				{images}
-			</section>
+			</article>
 			<div className={styles.linkContainer}>
 				{project.url ? (
 					<p>

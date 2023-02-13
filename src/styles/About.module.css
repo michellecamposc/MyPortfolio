@@ -5,3 +5,34 @@
 	flex-direction: column;
 	font-family: var(--font-family);
 }
+
+#aboutContainer h2 {
+	margin-top: 55px;
+	font-size: 40px;
+	color: rgba(20, 55, 123, 0.79);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.descriptionContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+	margin-bottom: 40px;
+}
+
+.descriptionContainer p {
+	font-size: 17px;
+	color: rgba(158, 163, 176, 1);
+	line-height: 33px;
+	width: 35%;
+}
+
+.photoContainer {
+	display: flex;
+	height: 450px;
+}

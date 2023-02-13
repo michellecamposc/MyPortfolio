@@ -6,9 +6,13 @@ import styles from '../styles/Home.module.css';
 import data from '../data/projects.json';
 import { WhatIDo } from '../components/WhatIDo';
 import { FooterSection } from '../components/FooterSection';
+import { useRef } from 'react';
 
 const dataProjects = data.projects;
+
 export const Home = () => {
+	const projectsSectionRef = useRef();
+
 	return (
 		<div id={styles.homeContainer}>
 			<Navbar />
@@ -17,19 +21,21 @@ export const Home = () => {
 					<h1>Hi, I'm Stephanie.</h1>
 					<h2>Frontend Developer and UX/UI Designer</h2>
 					<section id={styles.buttonContainer}>
-						<ProjectButton />
+						<ProjectButton projectsSectionRef={projectsSectionRef} />
 					</section>
 				</div>
 			</section>
-			{dataProjects.map(({ name, description, image, id }) => (
-				<Project
-					key={id}
-					project={dataProjects}
-					name={name}
-					description={description}
-					image={image}
-				/>
-			))}
+			<section ref={projectsSectionRef}>
+				{dataProjects.map(({ name, description, image, id }) => (
+					<Project
+						key={id}
+						project={dataProjects}
+						name={name}
+						description={description}
+						image={image}
+					/>
+				))}
+			</section>
 			<WhatIDo />
 			<FooterSection />
 		</div>

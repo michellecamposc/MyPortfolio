@@ -1,10 +1,16 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 
-export const ProjectButton = () => {
+export const ProjectButton = ({ projectsSectionRef }) => {
+	const handleClick = () => {
+		projectsSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+	};
+
 	return (
 		<>
-			<button className={styles.projectButton}>See my work below</button>
+			<button className={styles.projectButton} onClick={() => handleClick()}>
+				See my work below
+			</button>
 		</>
 	);
 };

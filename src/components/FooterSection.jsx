@@ -1,8 +1,18 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 import { BiCopyright } from 'react-icons/bi';
+import { useState } from 'react';
 
 export const FooterSection = () => {
+	const [isButtonActive, setIsButtonActive] = useState(false);
+	const handleButtonClick = () => {
+		navigator.clipboard.writeText('stephcamposc@gmail.com');
+		setIsButtonActive(true);
+		setTimeout(() => {
+			setIsButtonActive(false);
+		}, 2000);
+	};
+
 	return (
 		<>
 			<div className={styles.contactContainer}>
@@ -17,7 +27,14 @@ export const FooterSection = () => {
 					If you need a Frontend developer or UX/UI designer for your project,
 					send me an email and I will contact you.
 				</p>
-				<button className={styles.sendEmailButton}>Send me an Email</button>
+				<button
+					className={`${styles.sendEmailButton} ${
+						isButtonActive ? styles.buttonCopied : ''
+					}`}
+					onClick={handleButtonClick}
+				>
+					{isButtonActive ? 'Email copied' : 'Send me an Email'}
+				</button>
 				<hr className={styles.seperateLine} />
 				<footer className={styles.footerSection}>
 					<BiCopyright />

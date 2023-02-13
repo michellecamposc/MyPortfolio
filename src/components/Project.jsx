@@ -10,7 +10,7 @@ export const Project = ({ name, description, image, id }) => {
 				<section className={styles.projectDescription}>
 					<h3>{name}</h3>
 					<h1>{description}</h1>
-					<Link to={`/project/${name}`} style={{ textDecoration: 'none' }}>
+					<Link to={`/project/${id}`} style={{ textDecoration: 'none' }}>
 						<button className={styles.seeProjectButton}>
 							See this project <ImArrowRight2 style={{ marginLeft: '10px' }} />
 						</button>

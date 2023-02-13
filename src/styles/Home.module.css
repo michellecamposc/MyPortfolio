@@ -15,7 +15,7 @@
 	align-items: center;
 	color: rgb(0, 0, 0);
 	padding: 40px 187px;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .navbarContainer h1 {
@@ -317,4 +317,6 @@
 	font-size: 14px;
 	font-weight: lighter;
 	margin-bottom: 50px;
+	align-items: center;
+	display: flex;
 }

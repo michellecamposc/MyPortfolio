@@ -37,7 +37,7 @@ export const FooterSection = () => {
 				</button>
 				<hr className={styles.seperateLine} />
 				<footer className={styles.footerSection}>
-					<BiCopyright />
+					<BiCopyright style={{ marginRight: '7px' }} />
 					Copyright - Stephanie Campos
 				</footer>
 			</div>

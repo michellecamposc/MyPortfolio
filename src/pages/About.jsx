@@ -20,7 +20,7 @@ export const About = () => {
 					and learn.
 				</p>
 				<figure className={styles.photoContainer}>
-					<img src='/public/images/stephanieCampos.jpg' />
+					<img src='/images/stephanieCampos.jpg' />
 				</figure>
 			</section>
 			<FooterSection />

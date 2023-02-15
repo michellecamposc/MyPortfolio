@@ -357,7 +357,7 @@
 	}
 
 	.navbarContainer h1 {
-		font-size: 30px;
+		font-size: 25px;
 		font-weight: 800;
 		line-height: 31.56px;
 		color: #9ea3b0;
@@ -376,7 +376,7 @@
 	.navbarContainer a {
 		color: #2b313e;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 19px;
 		padding: 18px;
 	}
 
@@ -412,7 +412,7 @@
 
 	#descriptionContainer h1 {
 		font-weight: 800;
-		font-size: 40px;
+		font-size: 36px;
 		line-height: 65px;
 		color: #fff;
 		padding-bottom: 10px;
@@ -446,11 +446,11 @@
 	/* Projects section*/
 	.projectContainer {
 		width: 100%;
-		height: 100vh;
+		height: auto;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: 1rem;
+		margin-top: 7rem;
 		flex-direction: column;
 	}
 
@@ -467,9 +467,9 @@
 	.projectDescription h1 {
 		color: rgba(22, 72, 168, 0.79);
 		font-weight: 900;
-		font-size: 40px;
+		font-size: 36px;
 		line-height: 60px;
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 
 	.projectDescription h3 {
@@ -488,7 +488,7 @@
 		justify-content: center;
 		display: flex;
 		font-weight: 600;
-		font-size: 19px;
+		font-size: 17px;
 		background-color: transparent;
 		color: rgba(0, 0, 0, 0.58);
 		line-height: 23px;
@@ -523,7 +523,7 @@
 	}
 
 	.whatIDoContainer h1 {
-		font-size: 50px;
+		font-size: 45px;
 		font-weight: 800;
 		line-height: 83px;
 		color: #9ea3b0;
@@ -542,8 +542,10 @@
 	}
 
 	.iconsContainer {
-		width: 50%;
-		height: 50%;
+		width: 40%;
+		height: 40%;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.informationContainer {
@@ -562,7 +564,7 @@
 	}
 
 	.informationContainer h2 {
-		font-size: 30px;
+		font-size: 25px;
 		line-height: 30px;
 		color: rgba(22, 72, 168, 0.79);
 		margin: 10px;
@@ -595,12 +597,14 @@
 	}
 
 	.sayHiText h1 {
-		margin-left: 4.5rem;
-		padding: 3rem 0rem;
+		padding: 0rem 0rem 2.5rem;
 		font-size: 50px;
 		font-weight: 800;
 		line-height: 83px;
 		color: rgba(22, 72, 168, 0.79);
+		align-items: center;
+		justify-content: center;
+		display: inline-grid;
 	}
 
 	.sayHiText span:first-child {

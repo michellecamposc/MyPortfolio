@@ -15,16 +15,12 @@ export const About = () => {
 					the technological world began after studying medicine for a couple of
 					years. I discovered that my true passion was in programming and
 					design, where I can combine my creative and organized side. <br />
-					<br />I am passionate about constant learning, since I believe it is
-					essential to achieve excellence both as a human being and as a
-					professional. I love reading a good book, exploring nature and seeing
-					new places.
-					<br /> <br />I love working on projects that have a real impact on
-					society and I am always looking for new challenges and opportunities
-					to grow and learn.
+					<br /> I love working on projects that have a real impact on society
+					and I am always looking for new challenges and opportunities to grow
+					and learn.
 				</p>
 				<figure className={styles.photoContainer}>
-					<img src='/public/images/stephanie.png' />
+					<img src='/public/stephanieCampos.jpg' />
 				</figure>
 			</section>
 			<FooterSection />

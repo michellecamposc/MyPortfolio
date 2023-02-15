@@ -24,7 +24,8 @@
       "id": 4,
       "title": "Deja Burg",
       "description": "Application for a fast food restaurant. The goal is to create an interface for waiters and kitchen staff.",
-      "images": ["/images/individualsProjects/homePOS.jpg", "/images/individualsProjects/menuPOS.jpg", "/images/individualsProjects/toDrinkPOS.jpg", "/images/individualsProjects/comandasPOS.jpg"]
+      "images": ["/images/individualsProjects/homePOS.jpg", "/images/individualsProjects/menuPOS.jpg", "/images/individualsProjects/toDrinkPOS.jpg", "/images/individualsProjects/comandasPOS.jpg"],
+      "url": "https://github.com/michellecamposc/BurguerQueen"
     },
     {
       "id": 5,

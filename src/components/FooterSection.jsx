@@ -25,7 +25,7 @@ export const FooterSection = () => {
 						<span>Stephanie.</span>
 					</h1>
 				</div>
-				<p className={styles.informationAbout}>
+				<p className={styles.aboutInformation}>
 					If you need a Frontend developer or UX/UI designer for your project,
 					send me an email and I will contact you👋🏻.
 				</p>

@@ -11,7 +11,7 @@ export const WhatIDo = () => {
 				</h1>
 				<article className={styles.abilitiesContainer}>
 					<div className={styles.informationContainer}>
-						<figure>
+						<figure className={styles.iconsContainer}>
 							<img src='/images/Home/designHome.png' alt='UX/UI designer' />
 						</figure>
 						<h2> UX/UI Design</h2>
@@ -23,7 +23,7 @@ export const WhatIDo = () => {
 					</div>
 
 					<div className={styles.informationContainer}>
-						<figure>
+						<figure className={styles.iconsContainer}>
 							<img
 								src='/images/Home/developmentHome.png'
 								alt='Web development'
